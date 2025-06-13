@@ -429,6 +429,8 @@ body {
 header.main-header {
   position: relative;
   z-index: 100;
+  background: rgba(0, 0, 0, 0.458);
+  backdrop-filter: blur(5px);
 }
 
 header.main-header .header-sticky {
