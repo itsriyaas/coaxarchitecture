@@ -37,7 +37,7 @@
 /************************************/
 /*** 	 01. Global Variables	  ***/
 /************************************/
-
+@import url(https://db.onlinewebfonts.com/c/e5791db7c357b483e1e0d9e23bc6791e?family=Chica+Gogo+NF+W01+Bold);
 
 :root {
   --primary-color: #192324;
@@ -48,7 +48,7 @@
   --divider-color: #eaf0ec;
   --dark-divider-color: #ffffff1a;
   --error-color: rgb(230, 87, 87);
-  --default-font: "Hanken Grotesk", sans-serif;
+  --default-font: "Chica Gogo NF W01 Bold", sans-serif;
 }
 
 /************************************/
