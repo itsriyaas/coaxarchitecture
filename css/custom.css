@@ -1797,6 +1797,7 @@ header.main-header .header-sticky.active .navbar {
 }
 
 .testimonial-content p {
+  text-align: justify;
   font-size: 20px;
   color: var(--primary-color);
   margin: 0;
@@ -4742,4 +4743,7 @@ header.main-header .header-sticky.active .navbar {
   .error-page-image img {
     max-width: 100%;
   }
+}
+.text-p{
+  text-align: justify;
 }
