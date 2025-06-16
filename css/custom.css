@@ -43,12 +43,12 @@
   --primary-color: #192324;
   --secondery-color: #f8f8f8;
   --text-color: #283132;
-  --accent-color: #006a63;
+  --accent-color: black;
   --white-color: #ffffff;
   --divider-color: #eaf0ec;
   --dark-divider-color: #ffffff1a;
   --error-color: rgb(230, 87, 87);
-  --default-font: "Chica Gogo NF W01 Bold", sans-serif;
+  --default-font: "Hanken Grotesk", sans-serif;
 }
 
 /************************************/
@@ -4745,4 +4745,7 @@ header.main-header .header-sticky.active .navbar {
 }
 .text-p{
   text-align: justify;
+}
+.txth{
+  font-family: "Chica Gogo NF W01 Bold";
 }
