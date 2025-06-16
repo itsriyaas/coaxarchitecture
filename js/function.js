@@ -27,7 +27,6 @@
 			$("header .header-sticky").toggleClass("active", (fromTop > 600));
 		});
 	}	
-	
 	/* Slick Menu JS */
 	$('#menu').slicknav({
 		label : '',
