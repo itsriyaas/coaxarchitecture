@@ -429,7 +429,7 @@ body {
 header.main-header {
   position: relative;
   z-index: 100;
-
+  background-color: rgba(37, 37, 37, 0.485);
 }
 
 header.main-header .header-sticky {
