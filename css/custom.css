@@ -4748,6 +4748,7 @@ header.main-header .header-sticky.active .navbar {
 }
 .txth{
   font-family: "Chica Gogo NF W01 Bold";
+<<<<<<< HEAD
 }
 .video-wrapper {
   position: relative;
@@ -4765,3 +4766,6 @@ header.main-header .header-sticky.active .navbar {
   height: 100%;
   border-radius: 10px;
 }
+=======
+}
+>>>>>>> 4ebea716e895ffde4ab7fe29674491d34bd2561b
