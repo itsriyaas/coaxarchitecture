@@ -1081,7 +1081,7 @@
         <div class="col-lg-6">
           <!-- Our Skill Content Start -->
 <div class="our-skill-content">
-                     <!-- Section Title Start -->
+                    <!-- Section Title Start -->
 <div class="section-title">
   <p class="text-anime-style-2 description mt-0" data-cursor="-opaque">
     Award winning design team to build your <span>dream home</span>
@@ -1094,18 +1094,37 @@
     and bring it to life with thoughtful attention to detail.
   </p>
 
-  <!-- Responsive Video Embed Start -->
+  <!-- Responsive Video Embed with Image Button -->
   <div class="video-wrapper" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
     <video 
+      id="awardVideo"
       src="/images/award.mp4" 
       autoplay 
+      muted 
       loop 
       playsinline
-      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; cursor: pointer;"
+      onclick="pauseVideoOnClick()">
       Your browser does not support the video tag.
     </video>
+
+    <!-- Play Button Image -->
+    <img 
+      id="playButton"
+      src="/images/playbutton.png" 
+      alt="Play"
+      onclick="playVideo()"
+      style="
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 60px;
+        height: 60px;
+        cursor: pointer;
+      ">
   </div>
-  <!-- Responsive Video Embed End -->
 </div>
 <!-- Section Title End -->
           </div>
@@ -1646,4 +1665,20 @@
   <script src="js/function.js"></script>
 
   <script type="application/ld+json"></script>
+  <script>
+    const video = document.getElementById('awardVideo');
+  const playButton = document.getElementById('playButton');
+
+  function playVideo() {
+    video.play();
+    playButton.style.display = 'none';
+  }
+
+  function pauseVideoOnClick() {
+    if (!video.paused) {
+      video.pause();
+      playButton.style.display = 'block';
+    }
+  }
+  </script>
 </html>
